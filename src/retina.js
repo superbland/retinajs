@@ -156,7 +156,7 @@
             } else {
                 if (config.force_original_dimensions) {
                     that.el.setAttribute('width', that.el.offsetWidth);
-                    that.el.setAttribute('height', that.el.offsetHeight);
+                    // that.el.setAttribute('height', that.el.offsetHeight);
                 }
 
                 that.el.setAttribute('src', path);
